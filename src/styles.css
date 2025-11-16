@@ -11,6 +11,11 @@ body {
   text-align: center;
 }
 
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -68,12 +73,6 @@ body {
   background-color: #462cb3;
 }
 
-.img-responsive {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -82,6 +81,9 @@ section {
 
 section.secondary {
   background-color: #f5f5f5;
+}
+section.tertiary h3 {
+  padding-bottom: 30px;
 }
 
 header {
